@@ -1,8 +1,10 @@
 require 'rubygems'
+require 'iqengines/ersion'
 require 'hmac-sha1'
 require 'rest_client'
 
 # constants
+module Iqengines
 BASE_URL    = "http://api.iqengines.com/v1.2"
 QUERY_URL   = BASE_URL + "/query/"
 RESULT_URL  = BASE_URL + "/result/"
