@@ -1,5 +1,4 @@
 require 'rubygems'
-require "iqengines/version"
 require 'hmac-sha1'
 require 'rest_client'
 
